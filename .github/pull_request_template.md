@@ -11,17 +11,17 @@ Jira Ticket Number: [Jira Number](www.google.de)
 ## Type of PR
 
 <!--
-Choose of the following and remove the others
+Choose of the following
 -->
 
-- Bugfix
-- New feature
-- Behaviour changes
-- Code style improvement
-- Refactoring (no functional changes, no API changes)
-- Tests
-- Build related changes
-- Documentation content changes
+- [ ] Bugfix
+- [ ] New feature
+- [ ] Behaviour changes
+- [ ] Code style improvement
+- [ ] Refactoring (no functional changes, no API changes)
+- [ ] Tests
+- [ ] Build related changes
+- [ ] Documentation content changes
 <!-- - Other type (describe here) -->
 
 ## Checklist
@@ -30,8 +30,14 @@ Choose of the following and remove the others
 Review can safely start when all checks are there (remove tasks which are not applicable)
 -->
 
-- [ ] Tested on a real device and account
+### Required
+- [ ] Tested on a real device and/or account
 - [ ] Tested on both Light and Dark Theme
+- [ ] Code follows the style guidelines
+- [ ] Self-review of my own code
+
+### Optional 
+- [ ] Tested with bad connectivity
 - [ ] Deprecation annotations added
 - [ ] Documentation added or updated
 - [ ] Unit tests added and passing locally
