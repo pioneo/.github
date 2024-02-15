@@ -37,6 +37,7 @@ Review can safely start when all checks are there (remove tasks which are not ap
 - [ ] Self-review of my own code
 
 ### Optional 
+- [ ] Tested on a device with fresh install
 - [ ] Tested with bad connectivity
 - [ ] Deprecation annotations added
 - [ ] Documentation added or updated
